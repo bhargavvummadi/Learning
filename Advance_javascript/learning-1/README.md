@@ -30,3 +30,6 @@
 - - setInterval (setInterval(()=> {})
 - JS is a single threaded programming language (has only one call stack) because of this js is synchronous.
 - JavaScript Runtime
+- Web API (web browser running this in the background provides these things (Web API **window** ) DOM, fetch(), setTimeout()) and these are asynchronous
+- Event loop (always check is call stack empty or not) and returns one block from the callback queue (op from the webApi functions)
+- Node JS is a JS runtime outside of browser (global like window in web api) and it is a non blocking has event queue and see node.js architecture
