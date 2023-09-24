@@ -5,6 +5,8 @@
 - First JS engine **Brendan Eich**  JS creator, SPyder engine (firefox)
 - v8 engine is used by chrome and node js and it is written in c++.
 - JS File -> JS Lexical Analysis (Parser) -> AST (Abstract Syntax Tree) -> Interpreter (Byte code)-> Profiler (monitor or watcher) -> Compiler -> Optimized code === Only respect ECMAScript standards can engines be developed.
+- ![image](https://github.com/bhargavvummadi/Learning/assets/52027911/c8e32c5e-75b5-420b-8606-47155168dbe3)
+
 - Interpreter - convertes line by line to bytecode starts up fast but no optimization
 - Compiler - convertes entire code at a time takes some time but gives optimization.
 - Best of both worlds - JIT compiler
@@ -19,6 +21,8 @@
 - Hidden classes (Example reorder usage of objects) https://richardartoul.github.io/jekyll/update/2015/04/26/hidden-classes.html  and inline caching 
 - Web Assembly binary executable format or standard (why not use machine code from start just give websites machine code because there is no standard conversion from server to browser compilation) https://webassembly.org/
 - Call Stack and Memory Heap
+- ![stack](https://github.com/bhargavvummadi/Learning/assets/52027911/c9a20a18-63ec-4b41-854e-119c992e053d)
+
 - JS is garbage collected language (mark and sweep allocation (unreference data is gb collected)), but memory managmenet should be taken care
 - Memory leak causes of following:
 - - Global variables
@@ -26,3 +30,7 @@
 - - setInterval (setInterval(()=> {})
 - JS is a single threaded programming language (has only one call stack) because of this js is synchronous.
 - JavaScript Runtime
+- Web API (web browser running this in the background provides these things (Web API **window** ) DOM, fetch(), setTimeout()) and these are asynchronous
+- Event loop (always check is call stack empty or not) and returns one block from the callback queue (op from the webApi functions)
+- Node JS is a JS runtime outside of browser (global like window in web api) and it is a non blocking has event queue and see node.js architecture
+https://zerotomastery.io/cheatsheets/javascript-cheatsheet-the-advanced-concepts/
