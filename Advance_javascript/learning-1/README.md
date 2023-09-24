@@ -21,6 +21,8 @@
 - Hidden classes (Example reorder usage of objects) https://richardartoul.github.io/jekyll/update/2015/04/26/hidden-classes.html  and inline caching 
 - Web Assembly binary executable format or standard (why not use machine code from start just give websites machine code because there is no standard conversion from server to browser compilation) https://webassembly.org/
 - Call Stack and Memory Heap
+- ![stack](https://github.com/bhargavvummadi/Learning/assets/52027911/c9a20a18-63ec-4b41-854e-119c992e053d)
+
 - JS is garbage collected language (mark and sweep allocation (unreference data is gb collected)), but memory managmenet should be taken care
 - Memory leak causes of following:
 - - Global variables
