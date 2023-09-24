@@ -5,6 +5,8 @@
 - First JS engine **Brendan Eich**  JS creator, SPyder engine (firefox)
 - v8 engine is used by chrome and node js and it is written in c++.
 - JS File -> JS Lexical Analysis (Parser) -> AST (Abstract Syntax Tree) -> Interpreter (Byte code)-> Profiler (monitor or watcher) -> Compiler -> Optimized code === Only respect ECMAScript standards can engines be developed.
+- ![image](https://github.com/bhargavvummadi/Learning/assets/52027911/c8e32c5e-75b5-420b-8606-47155168dbe3)
+
 - Interpreter - convertes line by line to bytecode starts up fast but no optimization
 - Compiler - convertes entire code at a time takes some time but gives optimization.
 - Best of both worlds - JIT compiler
