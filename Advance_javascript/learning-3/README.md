@@ -70,3 +70,9 @@ Array.isArray(arr2) //false
 - 0 == {}: false - An empty object {} is not falsy, so this comparison results in false.
 
 - 0 == null: false - null is falsy, but 0 is not equal to null after type coercion.
+
+- Strongly typed dynamic language (python) vs Weakly typed dynamic languages (JS,php)
+
+- Strongly typed static language (java,c#) vs Weakly typed dynamic languages (c,c++)
+
+- Static typing in Js (flow, TS, Reasonml)
